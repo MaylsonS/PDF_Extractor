@@ -18,3 +18,4 @@ print(f"Quantidade de tabelas: {len(tabelas)}")
 for i, tabela in enumerate(tabelas):
     print(f"\nTabela {i + 1}:")
     print(tabela.df) 
+
