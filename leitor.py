@@ -1,7 +1,7 @@
 
 print("Pypdf")
 import pypdf
-reader = pypdf.PdfReader("relatorio.pdf")
+reader = pypdf.PdfReader("relatorio2.pdf")
 texto = "\n".join([page.extract_text() for page in reader.pages])
 print(texto)
 
