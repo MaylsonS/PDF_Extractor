@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/index.css">
+    <title>Upload PDF</title>
+</head>
+<body>
+    <h1>Upload PDF para Extração de Tabelas</h1>
+    <form method="post" action="/enviar" enctype="multipart/form-data">
+        <label for="arquivo">Escolha o arquivo PDF:</label>
+        <input type="file" name="arquivo" id="file" accept=".pdf" required>
+        <br><br>
+        <button type="submit">Enviar e Baixar Excel</button>
+    </form>
+</body>
+</html>
