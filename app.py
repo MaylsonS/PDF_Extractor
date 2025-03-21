@@ -106,4 +106,7 @@ def subir_arquivo():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    #Libera o acesso para outros PCs na mesma rede
+    # app.run(host="0.0.0.0", port=5000)
+
 
